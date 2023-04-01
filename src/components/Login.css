@@ -1,0 +1,79 @@
+.container {
+	max-width: 1000px;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+.login {
+	min-width: 400px;
+	width: 100%;
+	max-width: 400px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 30px 25px;
+	box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.login h2 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.login label {
+	display: block;
+	margin: 0 0 5px;
+	color: rgb(100, 100, 100);
+	font-size: 13px;
+	/*position: absolute;*/
+	/*padding: 5px;*/
+}
+
+.login input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #efefef;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	outline: none;
+	font-size: 13px;
+}
+
+.login input:focus {
+	outline: 1px solid rgba(var(--primary-color), 0.5);
+}
+
+.login input[type='submit'] {
+	background: rgba(var(--primary-color), 1);
+	border: 0;
+	padding: 10px 15px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	letter-spacing: 0.07em;
+}
+
+.login input[type='submit']:hover {
+	background: var(--hover-color);
+}
+
+.login p {
+	margin-top: 0;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+.login p a {
+	background: transparent;
+	border: 0;
+	outline: 0;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: inherit;
+	color: rgba(var(--primary-color), 1);
+}
